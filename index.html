@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive UI</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h2>Interactive Practice</h2>
+
+<!-- Event Handling -->
+<button class="color-change" onclick="changeText(this)" ondblclick="secretAction()">Click Me</button>
+<p id="keypressOutput"></p>
+
+<!-- Image Gallery -->
+<div class="gallery">
+<img src="Images/honey.jpg" alt="Honey jar">
+<img src="Images/magoes.jpg" alt="Mangoes">
+<img src="Images/cocktail.jpg" alt="Asian soup">
+</div>
+
+<!-- Accordion -->
+<button class="accordion">Reveal Me</button>
+<div class="panel">
+  <p>This content is hidden. Click the accordion button to reveal it.</p>
+</div>
+
+<!--. Form Validation -->
+<h3>Sign Up Form</h3>
+<form id="signupForm">
+  <label>Email: <input type="email" id="email" required></label> <span id="emailError" class="error"></span><br><br>
+  <label>Password: <input type="password" id="password" required></label> <span id="passwordError" class="error"></span><br><br>
+  <button type="submit">Submit</button>
+</form>
+
+<script src="index.js"></script>
+
+</body>
+</html>

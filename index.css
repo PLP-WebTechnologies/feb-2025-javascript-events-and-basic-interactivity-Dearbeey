@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .color-change {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .color-change:hover {
+    background-color: #0056b3;
+  }
+  .accordion {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 15%;
+    outline: none;
+    background: #ec3f3f;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  .panel {
+    display: none;
+    padding: 0 10px;
+    background-color: white;
+    overflow: hidden;
+  }
+  .gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  input.valid {
+    border-color: green;
+  }
+  input.invalid {
+    border-color: red;
+  }
